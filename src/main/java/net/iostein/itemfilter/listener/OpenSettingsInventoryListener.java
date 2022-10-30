@@ -86,7 +86,7 @@ public class OpenSettingsInventoryListener implements Listener {
                 }, plugin.getExecutor());
 
 
-         }
+    }
 
     private List<String> getLore(boolean enabled, FilterType type) {
         if (type == FilterType.DISABLED) {

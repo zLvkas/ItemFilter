@@ -35,9 +35,9 @@ public class ItemFilterListener implements Listener {
         final Hopper hopper;
         try {
             hopper = this.hopperRepository.getHopper(hopperLocation.getWorld().getUID(),
-                    hopperLocation.getBlockX(),
-                    hopperLocation.getBlockY(),
-                    hopperLocation.getBlockZ())
+                            hopperLocation.getBlockX(),
+                            hopperLocation.getBlockY(),
+                            hopperLocation.getBlockZ())
                     .get();
         } catch (InterruptedException | ExecutionException e) {
             throw new RuntimeException(e);
