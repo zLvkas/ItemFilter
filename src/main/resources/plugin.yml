@@ -1,0 +1,5 @@
+name: ItemFilter
+author: Lvkas_
+version: '1.0'
+main: net.iostein.itemfilter.ItemFilter
+api-version: 1.13
